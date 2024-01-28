@@ -1,4 +1,6 @@
-export const mockFAQData = [
+import { FAQ } from "../types/FAQ";
+
+export const mockFAQData : FAQ[] = [
     {
       "userId": 1,
       "id": 1,

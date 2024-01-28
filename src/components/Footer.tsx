@@ -2,7 +2,7 @@ import { AppBar, ThemeProvider, Typography } from "@mui/material";
 import React from "react";
 import { appBarTheme as theme } from "../themes/AppBarTheme";
 
-const Footer: React.FC = ({ }) => {
+const Footer: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <div style={{ minHeight: "10vh", position: "relative" }}>

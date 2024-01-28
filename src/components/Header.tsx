@@ -3,7 +3,7 @@ import React from "react";
 import { appBarTheme as theme } from "../themes/AppBarTheme";
 import HelpIcon from '@mui/icons-material/Help';
 
-const Header: React.FC = ({ }) => {
+const Header: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <AppBar position="static" component="header">

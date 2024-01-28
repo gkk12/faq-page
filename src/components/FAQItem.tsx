@@ -10,7 +10,7 @@ interface FAQItemProps {
 
 const FAQItem: React.FC<FAQItemProps> = ({ faq }) => {
     const [isExpanded, setIsExpanded] = useState(false as boolean);
-    const [isHovered, setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState(false as boolean);
 
     const toggleFAQExpansion = () => {
         setIsExpanded((prevState) => !prevState);

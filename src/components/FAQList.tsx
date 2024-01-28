@@ -9,7 +9,7 @@ interface FAQListProps {
 const FAQList: React.FC<FAQListProps> = ({ currentFAQs }) => {
   return (
     <ol style={{ listStyleType: "none" }} data-testid="faqList" aria-label="Frequently Asked Questions">
-      {currentFAQs.map((faq) =>
+      {currentFAQs.map((faq: FAQ) =>
         <li key={faq.id}><FAQItem key={faq.id} faq={faq} /></li>)}
     </ol>
   );
