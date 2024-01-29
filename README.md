@@ -9,6 +9,14 @@ The project is an innovative and user-friendly Frequently Asked Questions (FAQ) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Features included in the project
+
+1. Display a list of 9 questions initially.
+2. Expand any question to reveal its answer (implemented color change on hover and tooltip text for enhanced usability).
+3. Color change on text selection for the entire page.
+4. Load more button that fetches nine additional data items on click (with tooltip text and background color change to improve user experience).
+5. Integration of ARIA attributes to enhance accessibility for users with disabilities.
+
 ### Built With
 
 * JavaScript
